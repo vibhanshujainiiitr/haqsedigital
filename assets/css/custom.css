@@ -1,0 +1,31 @@
+/* ======== Rating Cards ============ */
+.rating-cards{
+    padding: 5% 5% 5% 5%;
+    margin: 2% 2% 2% 2%;
+    background-color: #0c1228;
+    color: #fff;
+    height: 200px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .rating-cards{
+        height: 200px;
+    }
+  }
+
+
+/*================= page scrollbar start ================*/
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #2c2c35;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #cccfdb;
+}
