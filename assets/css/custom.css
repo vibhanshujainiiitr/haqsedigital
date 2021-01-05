@@ -29,3 +29,16 @@
 ::-webkit-scrollbar-thumb {
 	background: #cccfdb;
 }
+
+/* =============== Footer Card ===========================*/
+.footer-card{
+    background-color: #0c1228;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+a .footer-card{
+    padding-left: 5px;
+    padding-right: 5px;
+}
