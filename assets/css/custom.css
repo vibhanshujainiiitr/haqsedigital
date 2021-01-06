@@ -29,3 +29,10 @@
 ::-webkit-scrollbar-thumb {
 	background: #cccfdb;
 }
+
+/* ========== Contact cards =============*/
+.contact-card{
+    padding:20% 5% 20% 5%;
+    height: 45%;
+    margin: 4% 2% 4% 2%;
+}
