@@ -29,3 +29,19 @@
 ::-webkit-scrollbar-thumb {
 	background: #cccfdb;
 }
+
+/* ======== Service Cards ============ */
+.service-cards{
+    padding: 5% 5% -15% 5%;
+    margin: 2% 2% 2% 2%;
+    background-color: #0c1228;
+    color: #fff;
+    height: 200px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .service-cards{
+        height: 200px;
+    }
+  }
