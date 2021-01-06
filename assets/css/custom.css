@@ -30,6 +30,7 @@
 	background: #cccfdb;
 }
 
+<<<<<<< HEAD
 /* =============== Footer Card ===========================*/
 .footer-card{
     background-color: #0c1228;
@@ -42,3 +43,20 @@ a .footer-card{
     padding-left: 5px;
     padding-right: 5px;
 }
+=======
+/* ======== Service Cards ============ */
+.service-cards{
+    padding: 5% 5% -15% 5%;
+    margin: 2% 2% 2% 2%;
+    background-color: #0c1228;
+    color: #fff;
+    height: 200px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .service-cards{
+        height: 200px;
+    }
+  }
+>>>>>>> 19b5cab48c0a3202c859c6936c8abe58f3ae306c
