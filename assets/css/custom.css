@@ -66,4 +66,7 @@ a .footer-card{
     }
   }
 /* ======== Course Cards ============ */
-
+.icon-serv{
+    height: 100%;
+    width: 100%;
+}
