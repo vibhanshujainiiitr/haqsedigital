@@ -42,6 +42,14 @@ a .footer-card{
     padding-left: 5px;
     padding-right: 5px;
 }
+
+/* ========== Contact cards =============*/
+.contact-card{
+    padding:20% 5% 20% 5%;
+    height: 45%;
+    margin: 4% 2% 4% 2%;
+}
+
 /* ======== Service Cards ============ */
 .service-card{
     background-color: #0c1228;
