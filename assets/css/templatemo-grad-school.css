@@ -809,10 +809,14 @@ section.courses {
     padding-bottom: 100px;
     padding: 0px 30px 100px 30px;
 }
-
+section.courses .item
+{
+    height: 400px;
+}
 section.courses .item img {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    height: auto;
 }
 
 section.courses .item .down-content {
