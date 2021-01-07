@@ -63,6 +63,17 @@ a .footer-card{
 @media only screen and (max-width: 600px) {
     .service-card{
         height: 200px;
+        width: 80%;
+    }
+    .footercards{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .contact-card{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
   }
 /* ======== Course Cards ============ */
