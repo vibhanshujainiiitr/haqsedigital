@@ -68,8 +68,10 @@ a .footer-card{
     padding-top: 10px;
 }
 
-.service-card h2{
+.service-card h4{
     padding: 2%;
+    font-size: 18px;
+    font-weight: bold;
 }
 .footercards{
     margin: 2% 0% 2% 0%;
