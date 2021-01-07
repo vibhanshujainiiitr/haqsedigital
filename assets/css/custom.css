@@ -59,7 +59,18 @@ a .footer-card{
     margin: 5% 5% 5% 5%;
     padding: 2% 2% 2% 2%;
 }
+.service-card img{
+    height: 100%;
+    width: 100%;
+}
 
+.service-card h5{
+    padding-top: 10px;
+}
+
+.service-card h2{
+    padding: 2%;
+}
 .footercards{
     margin: 2% 0% 2% 0%;
 }
@@ -67,8 +78,12 @@ a .footer-card{
 
 @media only screen and (max-width: 600px) {
     .service-card{
-        height: 200px;
+        height: 280px;
         width: 80%;
+    }
+
+    .service-card img{
+        width: 50px;
     }
     .footercards{
         width: 80%;
@@ -86,8 +101,3 @@ a .footer-card{
         margin-right: 10%;
     }
   }
-/* ======== Course Cards ============ */
-.icon-serv{
-    height: 100%;
-    width: 100%;
-}
