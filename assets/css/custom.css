@@ -109,3 +109,37 @@ a .footer-card{
         margin-right: 10%;
     }
   }
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+  }
+  
+  .back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background: #1977cc;
+    color: #fff;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i:hover {
+    background: #1c84e3;
+    color: #fff;
+  }
+  
+  .datepicker-dropdown {
+    padding: 20px !important;
+  }
+  
