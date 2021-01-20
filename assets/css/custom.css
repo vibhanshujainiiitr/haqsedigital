@@ -74,7 +74,7 @@ a .footer-card{
     font-weight: bold;
 }
 .footercards{
-    margin: 2% 0% 2% 0%;
+    margin: 1% 0% 2% 0%;
 }
 
 .top-image{
@@ -83,7 +83,7 @@ a .footer-card{
 }
 @media only screen and (max-width: 600px) {
     .service-card{
-        height: 280px;
+        height: 340px;
         width: 80%;
     }
 
@@ -143,3 +143,82 @@ a .footer-card{
     padding: 20px !important;
   }
   
+
+  /******************************-------*/
+  .circle {
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    /* may require vendor prefixes */
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+
+@media only screen and (max-width: 600px) {
+    .circle {
+      font-size: 30px;
+    }
+}
+
+@media (min-width: 600px) {
+  .circle {
+    font-size: 35px;
+  }
+}
+
+
+/* ============ FOOTER ==================*/
+.footer-icons{
+  font-size: 48px;
+  padding: 1%;
+  margin: 1.5%;
+}
+
+.footer-contact-icon{
+  font-size: 25px;
+}
+
+.footer-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-copyright {
+  font-size: 1.5vw;
+}
+
+.footer-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.footer-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.footer-instagram {
+  background: #125688;
+  color: white;
+}
+
+.footer-twitter {
+  background: #79d115;
+  color: white;
+
+@media only screen and (max-width: 600px) {
+  .footer-icons {
+    font-size: 30px;
+  }
+  .footer-contact-icon{
+    font-size: 35px;
+  }
+}
